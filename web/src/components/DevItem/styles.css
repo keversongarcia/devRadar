@@ -1,0 +1,83 @@
+li.dev-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 54px;
+    border-radius: 50%;
+    height: 54px;
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px;
+}
+
+li.dev-item:hover .user-func span {
+    visibility: visible;
+}
+
+.user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 0 20px 0;
+}
+
+li.dev-item a {
+    color: #8E4DFF;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+}
+
+li.dev-item a:hover {
+    color: #5E2eA6;
+}
+
+li .user-func span {
+    margin: 0 5px;
+    visibility: hidden;
+    font-size: 14px;
+    padding: 10px;
+}
+
+li .user-func span.user-apagar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #DA4343;
+}
+
+li span.user-apagar:hover {
+    color: #A73232;
+    cursor: pointer;
+}
+
+li .user-func span.user-editar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
